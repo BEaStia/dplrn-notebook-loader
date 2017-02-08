@@ -13,9 +13,8 @@ setup(
     author="DeepLearn, Inc.",
     description="DeepLearn Notebook Loader Extensions",
     long_description=open('README.md').read(),
-    # packages=find_packages(exclude=('tmp',)),
+    packages=find_packages(exclude=('tmp',)),
     install_requires=[
         'notebook'
-    ],
-    # scripts=['link_css.py']
+    ]
 )
